@@ -23,7 +23,7 @@ import static com.example.myquiz.SplashActivity.catList;
 
 public class CategoryActivity2 extends AppCompatActivity {
 
-    private GridView catGr;
+    private GridView catGrid;
     private FirebaseAuth firebaseAuth;
     private long backPressedTime;
 

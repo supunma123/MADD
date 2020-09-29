@@ -64,16 +64,16 @@ public class CategoryActivity2 extends AppCompatActivity {
                 Intent intent = new Intent(CategoryActivity2.this,LoginActivity.class);
                 startActivity(intent);
                 finish();
-              //  return true;
+                return true;
 
             case R.id.profile:
                 Intent intentt = new Intent(CategoryActivity2.this,UpdatePasswordActivity.class);
-               // startActivity(intentt);
+                startActivity(intentt);
                 return true;
 
         }
 
-        return super.onOptionsItemSelected(item);
+        //return super.onOptionsItemSelected(item);
     }
 
     @Override

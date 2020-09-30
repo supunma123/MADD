@@ -73,7 +73,7 @@ public class CategoryActivity2 extends AppCompatActivity {
 
         }
 
-        //return super.onOptionsItemSelected(item);
+        return super.onOptionsItemSelected(item);
     }
 
     @Override

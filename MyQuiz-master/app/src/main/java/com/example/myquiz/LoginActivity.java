@@ -26,7 +26,7 @@ import com.google.firebase.auth.FirebaseAuth;
 
 public class LoginActivity extends AppCompatActivity {
 
-    private TextView appName;
+    private TextView appName
     private EditText email , password;
     private Button login , register;
     private Dialog loadingdialog;
